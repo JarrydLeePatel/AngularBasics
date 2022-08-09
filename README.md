@@ -6,6 +6,9 @@
 - Directives ( *ngIf / *ngFor....)
 - Custom Directives
 
+## view the output for this repo:
+https://angular-ivy-rehabk.stackblitz.io
+
 # AngularExamples
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
