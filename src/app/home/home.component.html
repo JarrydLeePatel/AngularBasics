@@ -5,8 +5,21 @@
 <button [disabled]="clicked" (click)="handleClick()">Click me</button>
 
 <!--Directives-->
+<!--If statement-->
 <div *ngIf="clicked">
-    <h3>{{boat.name}}</h3>
+    <h3>{{Person.name}}</h3>
     <img src="https://www.gstatic.com/webp/gallery3/2.png" width="200px">
-    <p>build in {{boat.year}}</p>
+    <p>build in {{Person.age}}</p>
+</div>
+
+<!--For loop-->
+<div *ngFor="let country of Countries">
+
+    <h3 [ngClass]=
+    "{
+     'green' : country.name === 'South Africa'
+    }">
+    {{country.name}}
+    </h3>
+
 </div>

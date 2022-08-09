@@ -1,4 +1,5 @@
 //most logic would be written here
+import { useAnimation } from '@angular/animations';
 import { Component, OnInit, VERSION } from '@angular/core';
 
 //component decorator - allows us to bind data from this typescript file into our html
@@ -14,12 +15,21 @@ clicked = false;
 title = `Angular ${VERSION.major} is useful`
 
 
-//Boat data
-boat = {
-  name: 'Starfire',
-  year: 1977,
+//Person data
+Person = {
+  name: 'John',
+  age: 21,
   img: 'assets/boat.jpg'
 }
+
+Countries = [
+  {
+    name: "New Zealand",
+  },
+  {
+    name: "South Africa"
+  }
+]
 
 handleClick(){
   this.clicked = true;
