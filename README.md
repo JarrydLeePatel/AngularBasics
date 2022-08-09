@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## This repo has examples of the following
+- Binding Typescript to HTML
+- Interpolation (Taking a raw value from .ts and rendering it out in our html)
+- Using components
+- using the router outlet
+- Directives
+- 

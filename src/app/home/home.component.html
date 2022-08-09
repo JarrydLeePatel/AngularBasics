@@ -1,0 +1,12 @@
+<!--Example of interpolation using handlebar syntax-->
+<h1>{{title}}</h1>
+
+<!--Example of binding .ts to html-->
+<button [disabled]="clicked" (click)="handleClick()">Click me</button>
+
+<!--Directives-->
+<div *ngIf="clicked">
+    <h3>{{boat.name}}</h3>
+    <img src="https://www.gstatic.com/webp/gallery3/2.png" width="200px">
+    <p>build in {{boat.year}}</p>
+</div>
