@@ -1,3 +1,11 @@
+# This repo has examples of the following:
+- Binding Typescript to HTML
+- Interpolation (Taking a raw value from .ts and rendering it out in our html)
+- Using components
+- using the router outlet
+- Directives ( *ngIf / *ngFor....)
+- Custom Directives
+
 # AngularExamples
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
@@ -27,10 +35,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-## This repo has examples of the following
-- Binding Typescript to HTML
-- Interpolation (Taking a raw value from .ts and rendering it out in our html)
-- Using components
-- using the router outlet
-- Directives
-- 
